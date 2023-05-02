@@ -1,4 +1,6 @@
-
+*{
+  background-color:azure;
+}
 .bot-army {
   overflow-x: scroll;
   min-height: 300px;
