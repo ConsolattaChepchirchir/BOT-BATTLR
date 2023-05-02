@@ -2,10 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
+# Bot-Battlr phase 2 project
+This project works in a way that if you click on the robot image, it selects that robot and gives an option of cancelling or enlisting, when you click the enlist button it diplays the robot on the top
+# Project Description
+This project has acquired its robot data from local db.json file, which entails the name and the description. such as this:
+{
+      "id": 195,
+      "name": "^-52",
+      "health": 81,
+      "damage": 32,
+      "armor": 48,
+      "bot_class": "Medic",
+      "catchphrase": "0111111001000010010100010110010",
+      "avatar_url": "https://robohash.org/aliasquoest.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:12.475Z",
+      "updated_at": "2018-10-02T19:55:12.475Z"
+    },
+From the details above we display it on the browser and on click selects the robot and displays it.
+# Installation
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -38,6 +52,36 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+
+# Author 
+Name: Consolatta Chepchirchir
+Github name: ConsolattaChepchirchir
+Email: tuweiconsolatta@gmail.com
+# License
+Copyright (c) 2023 ConsolattaChepchirchir
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+## Available Scripts
+
+In the project directory, you can run:
+
 
 ## Learn More
 
