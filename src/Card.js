@@ -14,7 +14,6 @@ const BotCard = props => {
 
   function handleClick(e) {
     console.log("handleClick fired!")
-    // e.stopPropagation()
     action(bot)
   }
 
